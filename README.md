@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 * I'm currently working on an Alt:V Roleplaying Server
-* I'm currently an Apprentice Sofware Engineer
+* I'm currently an Apprentice Software Engineer
 * 🇩🇪 / 🇮🇪
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dotFionn&count_private=true)](https://github.com/dotFionn)
