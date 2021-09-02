@@ -4,7 +4,10 @@
 * I'm currently an Apprentice Software Engineer
 * 🇩🇪 / 🇮🇪
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dotFionn&count_private=true)](https://github.com/dotFionn)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dotFionn&count_private=true&theme=dark)](https://github.com/dotFionn)
+
+
+[![GitHub Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dotfionn&theme=dark&langs_count=10&layout=compact)](https://github.com/dotFionn)
 
 <!--
 **dotFionn/dotFionn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
