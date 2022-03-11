@@ -1,0 +1,136 @@
+@import url('fonts/fonts.css');
+
+:root {
+  --gradient-col1: rgb(128, 0, 100);
+  --gradient-col2: rgb(247, 71, 71);
+
+  --gradient: linear-gradient(270deg, var(--gradient-col1), rgb(28, 32, 34) 10% 90%, var(--gradient-col2));
+  --gradient-btn: linear-gradient(45deg, var(--gradient-col1), rgb(39, 45, 48) 10% 90%, var(--gradient-col2));
+  --gradient-btn-hover: linear-gradient(15deg, var(--gradient-col1), rgb(39, 45, 48) 40% 60%, var(--gradient-col2));
+
+  --color: rgb(199, 199, 199);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  overflow-x: hidden;
+
+  background: var(--gradient);
+
+  color: var(--color);
+
+  font-family: PTSansCaptionBold;
+}
+
+.globalFrame {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+
+  width: 25vw;
+  max-width: 25vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .globalFrame {
+    width: 40vw;
+    max-width: 40vw;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .globalFrame {
+    width: 30vw;
+    max-width: 30vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .globalFrame {
+    width: 50vw;
+    max-width: 50vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .globalFrame {
+    width: 60vw;
+    max-width: 60vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .globalFrame {
+    width: 80vw;
+    max-width: 80vw;
+  }
+}
+
+.image {
+  left: 50%;
+  transform: translateX(50%);
+  width: 50%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  margin-top: 5px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  text-align: center;
+
+  color: var(--color);
+  text-decoration: none;
+  font-size: large;
+
+  background: var(--gradient-btn);
+
+  border: 2px solid black;
+}
+
+.menu .button {
+  width: 100%;
+}
+
+.button.corner {
+  position: fixed;
+
+  right: 10px;
+  bottom: 10px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button.external::after {
+  content: '↗';
+  padding-left: 5px;
+  font-weight: bolder;
+}
+
+.button:hover {
+  background: var(--gradient-btn-hover);
+}
