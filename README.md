@@ -1,8 +1,17 @@
 ### Hi there 👋
 
-* I'm currently working on an Alt:V Roleplaying Server
-* I'm currently an Apprentice Software Engineer
+* I'm an apprentice software engineer
+* I love working on web applications
 * 🇩🇪 / 🇮🇪
+
+#### Main Tech stack:
+
+- TypeScript
+- NodeJS
+- React
+- MongoDB
+- MySQL
+- Docker
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dotFionn&count_private=true&theme=dark)](https://github.com/dotFionn)
 
